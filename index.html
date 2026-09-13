@@ -11,6 +11,22 @@
       Follow my journey, discover new content, and join me at upcoming events.
     </p>
 
+    <section class="links">
+      <a
+        class="link-button"
+        href="https://www.tiktok.com/@vinitabadani"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="tiktok-icon">♪</span>
+        <span class="link-text">
+          <strong>Follow Me on TikTok</strong>
+          <small>@bewithnivinnie</small>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+    </section>
+    
     <section class="featured-event">
       <div class="event-label">UPCOMING EVENT</div>
 
@@ -35,21 +51,34 @@
       </a>
     </section>
 
-    <section class="links">
-      <a
-        class="link-button"
-        href="https://www.tiktok.com/@vinitabadani"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span class="tiktok-icon">♪</span>
-        <span class="link-text">
-          <strong>Follow Me on TikTok</strong>
-          <small>@bewithnivinnie</small>
-        </span>
-        <span class="arrow">→</span>
-      </a>
-    </section>
+    <section class="featured-event jubin-event">
+  <div class="event-label">UPCOMING EVENT</div>
+
+  <div class="event-icon">🎤</div>
+
+  <h2>Jubin Nautiyal Live in Concert</h2>
+
+  <p class="presenter">Presented by Sai USA Inc.</p>
+
+  <p class="event-date">
+    <span>📅</span> November 28, 2026 · 8:00 PM
+  </p>
+
+  <p class="location">
+    <span>📍</span> Hard Rock Live at Etess Arena<br>
+    Atlantic City, New Jersey
+  </p>
+
+  <a
+    class="event-button"
+    href="https://www.saiusainc.com/events/jubin-nautiyal-hard-rock-live-atlantic-city"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    View Event &amp; Get Tickets
+    <span>→</span>
+  </a>
+</section>
 
     <p class="footer">Be with Vinnie ✨</p>
   </main>
@@ -64,6 +93,37 @@
     margin: 0;
   }
 
+  .featured-event + .featured-event {
+  /* margin-top: 18px; */
+}
+
+.jubin-event {
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(255, 214, 102, 0.35),
+      transparent 34%
+    ),
+    linear-gradient(145deg, #172554, #4338ca 55%, #7c3aed);
+  box-shadow: 0 16px 35px rgba(49, 46, 129, 0.25);
+}
+
+.event-date {
+  margin: 18px 0 0;
+  color: #f3e8ff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.jubin-event .location {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.jubin-event .event-button {
+  color: #3730a3;
+}
+  
   .bio-page {
     min-height: 100vh;
     padding: 42px 18px;
@@ -146,6 +206,7 @@
       linear-gradient(145deg, #82142d, #c9254c 55%, #ee703e);
     border-radius: 24px;
     box-shadow: 0 16px 35px rgba(130, 20, 45, 0.25);
+    margin-top: 18px;
   }
 
   .event-label {
