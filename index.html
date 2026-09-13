@@ -1,0 +1,303 @@
+<html>
+  <body>
+    <div class="bio-page">
+  <main class="profile-card">
+    <div class="avatar">V</div>
+
+    <h1>Vinnie</h1>
+    <p class="username">@bewithnivinnie</p>
+
+    <p class="bio">
+      Follow my journey, discover new content, and join me at upcoming events.
+    </p>
+
+    <section class="featured-event">
+      <div class="event-label">UPCOMING EVENT</div>
+
+      <div class="event-icon">🎶</div>
+
+      <h2>SAGAR WALI QAWWALI</h2>
+
+      <p class="presenter">Presented by Sai USA Inc.</p>
+
+      <p class="location">
+        <span>📍</span> Carteret, New Jersey
+      </p>
+
+      <a
+        class="event-button"
+        href="YOUR_EVENT_URL"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View Event &amp; Get Tickets
+        <span>→</span>
+      </a>
+    </section>
+
+    <section class="links">
+      <a
+        class="link-button"
+        href="https://www.tiktok.com/@bewithnivinnie"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="tiktok-icon">♪</span>
+        <span class="link-text">
+          <strong>Follow Me on TikTok</strong>
+          <small>@bewithnivinnie</small>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+    </section>
+
+    <p class="footer">Be with Vinnie ✨</p>
+  </main>
+</div>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .bio-page {
+    min-height: 100vh;
+    padding: 42px 18px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202124;
+    background:
+      radial-gradient(
+        circle at 10% 5%,
+        rgba(255, 116, 143, 0.25),
+        transparent 32%
+      ),
+      radial-gradient(
+        circle at 90% 95%,
+        rgba(255, 183, 77, 0.25),
+        transparent 35%
+      ),
+      linear-gradient(145deg, #fff8f4, #fffdf8);
+  }
+
+  .profile-card {
+    width: 100%;
+    max-width: 580px;
+    text-align: center;
+  }
+
+  .avatar {
+    width: 108px;
+    height: 108px;
+    margin: 0 auto 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background: linear-gradient(135deg, #ee355c, #ff873c);
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 12px 30px rgba(165, 51, 56, 0.2);
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  h1 {
+    margin: 0;
+    color: #191919;
+    font-size: 34px;
+    line-height: 1.2;
+  }
+
+  .username {
+    margin: 7px 0 0;
+    color: #d52e50;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .bio {
+    max-width: 450px;
+    margin: 16px auto 28px;
+    color: #686868;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .featured-event {
+    position: relative;
+    padding: 29px 24px 24px;
+    overflow: hidden;
+    color: #ffffff;
+    background:
+      radial-gradient(
+        circle at top right,
+        rgba(255, 200, 92, 0.36),
+        transparent 32%
+      ),
+      linear-gradient(145deg, #82142d, #c9254c 55%, #ee703e);
+    border-radius: 24px;
+    box-shadow: 0 16px 35px rgba(130, 20, 45, 0.25);
+  }
+
+  .event-label {
+    display: inline-block;
+    margin-bottom: 14px;
+    padding: 7px 12px;
+    color: #702036;
+    background: #ffe2ad;
+    border-radius: 50px;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+  }
+
+  .event-icon {
+    margin-bottom: 8px;
+    font-size: 36px;
+  }
+
+  .featured-event h2 {
+    margin: 0;
+    font-size: 25px;
+    line-height: 1.25;
+  }
+
+  .presenter {
+    margin: 8px 0 0;
+    color: #ffe4e9;
+    font-size: 14px;
+  }
+
+  .location {
+    margin: 18px 0;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .event-button {
+    min-height: 52px;
+    padding: 13px 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    color: #941d39;
+    background: #ffffff;
+    border-radius: 14px;
+    font-size: 15px;
+    font-weight: 800;
+    text-decoration: none;
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .event-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 9px 20px rgba(78, 4, 27, 0.25);
+  }
+
+  .links {
+    margin-top: 16px;
+  }
+
+  .link-button {
+    min-height: 68px;
+    padding: 12px 18px;
+    display: grid;
+    grid-template-columns: 42px 1fr 30px;
+    align-items: center;
+    color: #202124;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(213, 46, 80, 0.16);
+    border-radius: 18px;
+    box-shadow: 0 8px 22px rgba(109, 40, 50, 0.09);
+    text-align: left;
+    text-decoration: none;
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .link-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 26px rgba(109, 40, 50, 0.15);
+  }
+
+  .tiktok-icon {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background: #111111;
+    border-radius: 50%;
+    font-size: 21px;
+    font-weight: 800;
+  }
+
+  .link-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .link-text strong {
+    font-size: 16px;
+  }
+
+  .link-text small {
+    color: #777777;
+    font-size: 13px;
+  }
+
+  .arrow {
+    color: #d52e50;
+    font-size: 22px;
+    text-align: right;
+  }
+
+  .footer {
+    margin: 25px 0 0;
+    color: #777777;
+    font-size: 13px;
+  }
+
+  @media (max-width: 480px) {
+    .bio-page {
+      padding: 30px 14px;
+    }
+
+    .avatar {
+      width: 92px;
+      height: 92px;
+      font-size: 34px;
+    }
+
+    h1 {
+      font-size: 29px;
+    }
+
+    .bio {
+      font-size: 15px;
+    }
+
+    .featured-event {
+      padding: 25px 18px 19px;
+      border-radius: 20px;
+    }
+
+    .featured-event h2 {
+      font-size: 22px;
+    }
+  }
+</style>
+  </body>
+</html>
