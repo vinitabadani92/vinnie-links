@@ -1,4 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Vinnie | Links & Events</title>
+  </head>
   <body>
     <div class="bio-page">
   <main class="profile-card">
@@ -21,42 +32,10 @@
         <span class="tiktok-icon">♪</span>
         <span class="link-text">
           <strong>Follow Me on TikTok</strong>
-          <small>@vinitabadani</small>
+          <small>@bewithnivinnie</small>
         </span>
         <span class="arrow">→</span>
       </a>
-
-      <a
-  class="link-button"
-  href="https://www.instagram.com/bewithvinnie"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <span class="instagram-icon">
-  <svg
-    viewBox="0 0 24 24"
-    width="21"
-    height="21"
-    fill="none"
-    stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    aria-hidden="true"
-  >
-    <rect x="3" y="3" width="18" height="18" rx="5"></rect>
-    <circle cx="12" cy="12" r="4"></circle>
-    <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle>
-  </svg>
-</span>
-
-  <span class="link-text">
-    <strong>Follow Me on Instagram</strong>
-    <small>@bewithnivinnie</small>
-  </span>
-
-  <span class="arrow">→</span>
-</a>
     </section>
     
     <section class="featured-event">
@@ -122,7 +101,11 @@
   }
 
   body {
-    margin: 0;
+    width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
   }
 
   .featured-event + .featured-event {
@@ -157,9 +140,12 @@
 }
   
   .bio-page {
+    width: 100%;
     min-height: 100vh;
     padding: 42px 18px;
+    padding: 42px 18px;
     display: flex;
+    width: 100%;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #202124;
@@ -181,6 +167,7 @@
     width: 100%;
     max-width: 580px;
     text-align: center;
+    margin: 0 auto;
   }
 
   .avatar {
@@ -217,7 +204,7 @@
   }
 
   .bio {
-    max-width: 450px;
+    max-width: 100%;
     margin: 16px auto 28px;
     color: #686868;
     font-size: 16px;
@@ -394,28 +381,20 @@
       font-size: 22px;
     }
   }
-  .links {
-  display: grid;
-  gap: 14px;
-  margin-top: 16px;
-}
 
-.instagram-icon {
-  width: 38px;
-  height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  background: linear-gradient(
-    135deg,
-    #833ab4 0%,
-    #c13584 35%,
-    #e1306c 60%,
-    #f77737 100%
-  );
-  border-radius: 50%;
-  flex-shrink: 0;
+  @media (max-width: 480px) {
+  .bio-page {
+    padding: 24px 25px;
+  }
+
+  .featured-event {
+    padding: 24px 16px 19px;
+    border-radius: 18px;
+  }
+
+  .link-button {
+    padding: 11px 14px;
+  }
 }
 </style>
   </body>
