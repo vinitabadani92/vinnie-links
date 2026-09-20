@@ -9,6 +9,12 @@
 @media(max-width:1279px){.mobile-toggle{display:inline-flex}.header-collab{display:none!important}}
 @media(max-width:640px){header>div{height:72px!important;padding-left:1rem!important;padding-right:1rem!important}.mobile-menu{inset:72px 0 auto 0}main{padding-top:72px!important}}
 :focus-visible{outline:3px solid #b42246;outline-offset:3px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+#gram-diary-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem}
+#gram-diary-grid .gram-diary-card{width:100%}
+@media(min-width:640px){#gram-diary-grid .gram-diary-card{width:calc((100% - 1rem)/2)}}
+@media(min-width:1024px){#gram-diary-grid .gram-diary-card{width:calc((100% - 3rem)/4)}}
+.honeypot{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
 </style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"tertiary-fixed-dim":"#ffb2ba","secondary-fixed":"#ffd9df","surface-container-high":"#ebe8e2","outline-variant":"#e0bec1","tertiary-container":"#a90039","on-primary-fixed-variant":"#910031","on-surface":"#1c1c18","on-tertiary-fixed":"#400010","tertiary":"#7e0029","outline":"#8d7072","surface-dim":"#dddad4","surface-container":"#f1ede7","inverse-on-surface":"#f4f0ea","on-error":"#ffffff","primary-fixed-dim":"#ffb2ba","on-tertiary-fixed-variant":"#910030","surface":"#fdf9f3","on-secondary":"#ffffff","on-secondary-fixed":"#2f131a","surface-tint":"#b42246","on-surface-variant":"#594043","surface-container-lowest":"#ffffff","tertiary-fixed":"#ffd9dc","on-tertiary":"#ffffff","inverse-primary":"#ffb2ba","surface-variant":"#e6e2dc","secondary-container":"#ffcdd6","primary-container":"#a4133c","background":"#fdf9f3","error":"#ba1a1a","primary":"#7d0029","primary-fixed":"#ffd9dc","error-container":"#ffdad6","on-background":"#1c1c18","on-error-container":"#93000a","surface-container-highest":"#e6e2dc","surface-container-low":"#f7f3ed","secondary":"#7b545c","surface-bright":"#fdf9f3","on-tertiary-container":"#ffb4bb","on-secondary-container":"#7b545c","secondary-fixed-dim":"#ebbac3","inverse-surface":"#31302d","on-primary-container":"#ffb3bb","on-secondary-fixed-variant":"#603d44","on-primary-fixed":"#400011","on-primary":"#ffffff"},"borderRadius":{"DEFAULT":"1rem","lg":"2rem","xl":"3rem","full":"9999px"},"spacing":{"gutter-desktop":"2.5rem","gutter":"1.5rem","margin-desktop":"4rem","space-xl":"3rem","space-xs":"0.25rem","margin":"1.25rem","space-md":"1rem","space-sm":"0.5rem","space-lg":"1.75rem"},"fontFamily":{"headline-sm":["Bodoni Moda"],"body-md":["Plus Jakarta Sans"],"display-hero":["Bodoni Moda"],"body-lg":["Plus Jakarta Sans"],"display-hero-mobile":["Bodoni Moda"],"body-sm":["Plus Jakarta Sans"],"headline-lg-mobile":["Bodoni Moda"],"label-ui":["Plus Jakarta Sans"],"label-caps":["Plus Jakarta Sans"],"headline-md":["Bodoni Moda"],"headline-lg":["Bodoni Moda"],"title-editorial":["Bodoni Moda"]},"fontSize":{"headline-sm":["24px",{"lineHeight":"32px","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"display-hero":["72px",{"lineHeight":"80px","letterSpacing":"-0.02em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"display-hero-mobile":["44px",{"lineHeight":"50px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"headline-lg-mobile":["32px",{"lineHeight":"38px","letterSpacing":"-0.01em","fontWeight":"500"}],"label-ui":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"label-caps":["11px",{"lineHeight":"16px","letterSpacing":"0.12em","fontWeight":"700"}],"headline-md":["32px",{"lineHeight":"40px","fontWeight":"500"}],"headline-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.015em","fontWeight":"500"}],"title-editorial":["20px",{"lineHeight":"28px","letterSpacing":"0.01em","fontWeight":"500"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-primary"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_8px_32px_-4px_rgba(26,22,21,0.06)]"><div class="h-20 w-full px-margin md:px-margin-desktop flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm group" data-path="meet-vinnie" href="#meet-vinnie"><div class="flex flex-col"><span class="font-title-editorial text-title-editorial text-primary tracking-tight leading-none">Vinnie</span><span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">NYC • NJ Lifestyle</span></div></a></div><nav class="hidden xl:flex items-center gap-gutter" data-active-classes="bg-secondary-container text-on-secondary-container font-label-ui rounded-full px-space-md py-space-xs transition-all duration-200"><a aria-current="page" class="bg-secondary-container text-on-secondary-container font-label-ui rounded-full px-space-md py-space-xs transition-all duration-200" data-path="meet-vinnie" href="#meet-vinnie">Meet Vinnie</a><a class="text-on-surface-variant hover:text-on-surface font-label-ui text-label-ui transition-colors duration-150" data-path="what-im-into" href="#what-im-into">What I’m Into</a><a class="text-on-surface-variant hover:text-on-surface font-label-ui text-label-ui transition-colors duration-150" data-path="upcoming-events" href="#upcoming-events">Upcoming Events</a><a class="text-on-surface-variant hover:text-on-surface font-label-ui text-label-ui transition-colors duration-150" data-path="instagram-diary" href="#instagram-diary">Gram Diary</a><a class="text-on-surface-variant hover:text-on-surface font-label-ui text-label-ui transition-colors duration-150" data-path="collaborate" href="#collaborate">Collaborate</a><a class="text-on-surface-variant hover:text-on-surface font-label-ui text-label-ui transition-colors duration-150" data-path="collaborate-form" href="#collaborate-form">Contact</a></nav><div class="flex items-center gap-space-sm sm:gap-space-md"><a class="hidden md:inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container hover:bg-secondary-container text-primary font-label-ui text-label-ui transition-all duration-200" href="https://instagram.com/bewithvinnie" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" class="w-[19px] h-[19px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5"></rect><circle cx="12" cy="12" r="4.25"></circle><circle cx="17.6" cy="6.4" r="1" fill="currentColor" stroke="none"></circle></svg><span class="">@bewithvinnie</span></a><a class="header-collab inline-flex items-center px-space-md sm:px-space-lg py-space-xs sm:py-space-sm rounded-full bg-primary-container text-on-primary font-label-ui text-label-ui shadow-[0_4px_16px_rgba(164,19,60,0.2)] hover:bg-primary hover:scale-[1.02] active:scale-[0.98] transition-all duration-200" data-path="collaborate" href="#collaborate">Let's Collaborate</a><button class="mobile-toggle" id="mobile-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span class="material-symbols-outlined">menu</span></button></div></div></header><nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation"><a href="#meet-vinnie">Meet Vinnie</a><a href="#what-im-into">What I’m Into</a><a href="#upcoming-events">Upcoming Events</a><a href="#instagram-diary">Gram Diary</a><a href="#collaborate">Collaborate</a><a href="#collaborate-form">Contact</a></nav><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
 <!-- 1. HERO SECTION (Asymmetric Editorial Magazine Spread) -->
@@ -141,23 +147,19 @@
 <div class="lg:col-span-5 relative order-2 lg:order-1">
 <div class="relative mx-auto max-w-md lg:max-w-none">
 <!-- Tape Mockup Accent -->
-<div class="absolute -top-3 left-1/2 -translate-x-1/2 w-28 h-6 bg-surface-container-high/80 rotate-2 backdrop-blur-sm z-20 rounded-sm shadow-sm"></div>
+
 <!-- Polarized / Magazine Framed Image -->
-<div class="bg-surface-container-lowest p-3.5 pb-8 rounded-2xl shadow-xl transform -rotate-1 hover:rotate-0 transition-transform duration-300">
+<div class="bg-surface-container-lowest p-3.5 rounded-2xl shadow-xl transform -rotate-1 hover:rotate-0 transition-transform duration-300">
 <div class="rounded-xl overflow-hidden bg-surface-container aspect-[3/4]">
-<img class="w-full h-full object-cover object-center" data-alt="Vinnie dressed in a sparkling gold and emerald sequin evening gown walking joyously outside NYC venue The Velvet Room at night, neon street signs, cheerful smile, elegant night out in Manhattan." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDim_8b4MJ4fHrGGEQg26kSmXzFvKcewxEf6IPnEGubtxJYAPVBUUBK-YUWp_zKkkB9itjrh-zExH7tmIxtX4e5OMGy6lsb7yVHEDR9b0WQqaxLPc5B2f5XFBYqXVSNU6p_NUP1TMC1fynh58nHx8LhddO1-40R7m4rkAW21t1BA7FfYvP-nDp-bKgAXFND6gq2LoT-NrLObGxHFoos2IjirrkMbL4Z_n2T3MANpDG6c2IoAkQvpzR-">
+<img class="w-full h-full object-cover object-center" data-alt="Vinnie dressed in a sparkling gold and emerald sequin evening gown walking joyously outside NYC venue The Velvet Room at night, neon street signs, cheerful smile, elegant night out in Manhattan." src="static/imgs/image2.PNG">
 </div>
-<div class="mt-4 px-2 flex justify-between items-center">
-<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Fig 01 • Lower East Side</span>
-<span class="font-title-editorial text-sm italic text-primary">Nightfall in Manhattan</span>
-</div>
+
 </div>
 <!-- Secondary Overlapping Polaroid -->
 <div class="absolute -bottom-8 -right-4 w-44 sm:w-52 bg-surface-container-lowest p-2.5 pb-4 rounded-xl shadow-2xl transform rotate-6 hidden sm:block">
 <div class="rounded-lg overflow-hidden aspect-square bg-surface-container">
-<img class="w-full h-full object-cover" data-alt="Cozy cocktail table with fresh oysters, spicy dirty martini with olive, and fresh crusty bread in a vintage New York brasserie setting with warm ambiance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUz5b5BP-TZ4kkMIziRw1LVfsObuDRU8dqF70Kb-PmZULDFZ9YTr8Cf6QeoKVcQIYXaWVzqnGCpejfFIz_idixVZgCYkyJUuzRkaEdqlzq8rEOLQZBDTJyeVgKCdazNuWZtyjs91mI994Mi-I6_zDlGfF_E8Srnap-l26D6uajc-_5Ko_kLq_QCnV1pIoPEq4pQ-dvlk_X4yU8BizhyNfwjX41Y1Tk8GV-5L7m1iR1alT1XLIjGOgY">
+<img class="w-full h-full object-cover" data-alt="Cozy cocktail table with fresh oysters, spicy dirty martini with olive, and fresh crusty bread in a vintage New York brasserie setting with warm ambiance." src="static/imgs/image3.jpg">
 </div>
-<p class="font-label-caps text-[10px] text-on-surface-variant text-center mt-2 uppercase tracking-wide">Oyster Hour • Always</p>
 </div>
 </div>
 </div>
@@ -229,20 +231,20 @@
 </div>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md items-center my-space-xs">
 <div class="space-y-space-xs">
-<h3 class="font-headline-sm text-headline-sm text-on-surface">Street Style &amp; Couture</h3>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Saree Stories</h3>
 <p class="font-body-md text-body-md text-on-surface-variant">
-                From buttery red leather moto jackets on Prince Street to timeless South Asian bridal and festive silhouettes. High-street curation anchored in fearless elegance.
+  A celebration of timeless South Asian style—rich textiles, intricate details, and silhouettes that make tradition feel effortlessly modern.
               </p>
 <div class="flex items-center gap-2 pt-space-xs">
-<span class="font-label-caps text-label-caps text-primary uppercase">Leather Jackets</span>
+<span class="font-label-caps text-label-caps text-primary uppercase">SAREES</span>
 <span class="text-on-surface-variant">•</span>
-<span class="font-label-caps text-label-caps text-primary uppercase">Silk Slips</span>
+<span class="font-label-caps text-label-caps text-primary uppercase">DESI GLAM</span>
 <span class="text-on-surface-variant">•</span>
-<span class="font-label-caps text-label-caps text-primary uppercase">Desi Glam</span>
+<span class="font-label-caps text-label-caps text-primary uppercase">TIMELESS STYLE</span>
 </div>
 </div>
 <div class="rounded-xl overflow-hidden aspect-[4/5] bg-surface-container">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Editorial close-up of statement fashion piece: cherry red leather biker jacket draped over black lace silk with layered chunky gold chains and tortoise accessories in Manhattan sunlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCeyqTkm4fzz16Wefo7n-DVJKaQ30cPBMcjJpST7_LYZciuQFh5rQE9ZX8qyCONb3snzwvO82gl0XaEiIlhmPJOIcl21O9aVh42fp8PZqaSl8NopimUKHqCgqMWNYC_Y2CsnL-tkA3zDyi-YznwI9U691vD5zyImV0g7J9tU0PrDSR-7QHyymJf0Hc1lyRqzXBKWbWtNc4xsFW_15HNrJPRgp_RfUzkntiFmuykczz9Y3WbDkXSvJ_6">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Editorial close-up of statement fashion piece: cherry red leather biker jacket draped over black lace silk with layered chunky gold chains and tortoise accessories in Manhattan sunlight." src="static/imgs/image1.PNG">
 </div>
 </div>
 </div>
@@ -253,12 +255,12 @@
 <span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">restaurant</span>
 </div>
 <div class="rounded-xl overflow-hidden aspect-[16/9] mb-space-md bg-surface-container">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Table setting at bustling classic NYC restaurant featuring plate of fresh oysters on ice with mignonette sauce, bowl of seafood linguine with clams and tomatoes, glass of icy martini with green olive." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDowE7O0hZ11F7ckTwpBXiEcrBgYrqNmoFWPYf9l7Q40iSaYqV6_jpfqhojaUsfb88Mam22fI9-7nc2Ahe9HUsCxdgpzaFhxGKKZgxwqE2NNz2x72GVRACSvFv8h8Tb3M8A29nFEKAe_us_SVJYQs1RIOydSTJwqHuH3mn6ImsCAJ5vANvgKRj9WaElOXHsn1n0-WyTg2mX131F_z71ihzAslcszzZs8wsdrzu-fWuPvOBVWTk5BbrI">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Table setting at bustling classic NYC restaurant featuring plate of fresh oysters on ice with mignonette sauce, bowl of seafood linguine with clams and tomatoes, glass of icy martini with green olive." src="static/imgs/image3.jpg">
 </div>
 <div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Oysters, Pasta &amp; Sips</h3>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Brunch Worth Sharing</h3>
 <p class="font-body-md text-body-md text-on-surface-variant">
-              Dirty martinis with blue cheese olives, hidden wine cellars in Greenwich Village, and late-night spicy street food along Newark Ave in Jersey City.
+  Beautifully plated favorites, perfectly brewed coffee, and indulgent bites made for slow mornings and even better conversations.
             </p>
 </div>
 </div>
@@ -269,7 +271,7 @@
 <span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">graphic_eq</span>
 </div>
 <div class="rounded-xl overflow-hidden aspect-[16/9] mb-space-md bg-surface-container">
-<img alt="Concert and musical performance atmosphere with dramatic warm stage lighting, euphoric audience, acoustic instruments and Sufi qawwali musicians, intimate festival vibe" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfxkBgK1_Aw_wHD7HWAjEHP9pXC_jYFdBU0P22wI_GaT_fS_PlFy92Sb8rqXbPAAQLGkcCVL4mU3_0E4D5oC6s71tR7Y4LkrcFYPwinZ-Vrt6qn6aVIDvMV_jOZ0pZL3p-lgA2qXxn_tVLzyYy0zwjrThjDzv23rcMQUpL3vNfq24inQI5pXsSbWmAxlbNOy-uPqkfZQCmVbX9Xobz0hYS_nf2cElWYuQ7LtIgSaIyhj8RwPLuETIL">
+<img alt="Concert and musical performance atmosphere with dramatic warm stage lighting, euphoric audience, acoustic instruments and Sufi qawwali musicians, intimate festival vibe" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://storage.googleapis.com/sai-usa-inc-f8581.firebasestorage.app/events/media/1789064999572_SAGAR-WALI-QAWWALI-NJ-WEBSITE-BANNER-1920x960-NEW.jpg__1_.jpeg">
 </div>
 <div>
 <h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Qawwali &amp; NYC Underground</h3>
@@ -292,8 +294,8 @@
 </div>
 <div class="mt-space-md pt-space-xs">
 <div class="flex items-center gap-2 text-primary font-label-ui text-label-ui">
-<span class="">Read Trip Itineraries</span>
-<span class="material-symbols-outlined text-sm">arrow_forward</span>
+<a href="https://www.instagram.com/bewithvinnie" rel="noopener noreferrer" target="_blank"><span class="">Read Trip Itineraries</span></a>
+<span class="material-symbols-outlined text-sm">arrow_forward</span> </a>
 </div>
 </div>
 </div>
@@ -306,7 +308,7 @@
 <div>
 <h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">The Yap Log</h3>
 <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-              Uncut, hilarious conversations on dating in your late 20s, career pivots, girl friendships, and surviving corporate burnout.
+              Uncut, hilarious conversations on dating in your early 30s, career pivots, girl friendships, and surviving corporate burnout.
             </p>
 </div>
 <div class="mt-space-md">
@@ -344,7 +346,7 @@
 </div>
 <!-- Event Poster Visual -->
 <div class="relative rounded-xl overflow-hidden aspect-[16/9] mb-space-md bg-surface-container-high">
-<img alt="Concert and musical performance atmosphere with dramatic warm stage lighting, euphoric audience, acoustic instruments and Sufi qawwali musicians, intimate festival vibe" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfxkBgK1_Aw_wHD7HWAjEHP9pXC_jYFdBU0P22wI_GaT_fS_PlFy92Sb8rqXbPAAQLGkcCVL4mU3_0E4D5oC6s71tR7Y4LkrcFYPwinZ-Vrt6qn6aVIDvMV_jOZ0pZL3p-lgA2qXxn_tVLzyYy0zwjrThjDzv23rcMQUpL3vNfq24inQI5pXsSbWmAxlbNOy-uPqkfZQCmVbX9Xobz0hYS_nf2cElWYuQ7LtIgSaIyhj8RwPLuETIL">
+<img alt="Concert and musical performance atmosphere with dramatic warm stage lighting, euphoric audience, acoustic instruments and Sufi qawwali musicians, intimate festival vibe" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://storage.googleapis.com/sai-usa-inc-f8581.firebasestorage.app/events/media/1789064999572_SAGAR-WALI-QAWWALI-NJ-WEBSITE-BANNER-1920x960-NEW.jpg__1_.jpeg">
 <div class="absolute bottom-3 left-3 bg-surface/90 backdrop-blur-md px-3 py-1.5 rounded-full text-on-surface font-label-ui text-xs flex items-center gap-1.5">
 <span class="w-2 h-2 rounded-full bg-primary"></span>
 <span class="">Selling Out Fast</span>
@@ -372,10 +374,10 @@
 <span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Pass Type</span>
 <span class="font-label-ui text-label-ui text-on-surface">General &amp; VIP Balcony</span>
 </div>
-<button class="inline-flex items-center justify-center gap-2 px-space-lg py-3 rounded-full bg-primary text-on-primary font-label-ui text-label-ui hover:bg-primary-container transition-all" onclick="alert('Redirecting to Carteret Performing Arts Center official ticket portal...')">
+<a class="inline-flex items-center justify-center gap-2 px-space-lg py-3 rounded-full bg-primary text-on-primary font-label-ui text-label-ui hover:bg-primary-container transition-all" href="https://carteretpac.showare.com/orderticketsvenue.asp?p=834" rel="noopener noreferrer" target="_blank">
 <span class="">Secure Tickets</span>
 <span class="material-symbols-outlined text-base">arrow_forward</span>
-</button>
+</a>
 </div>
 </div>
 <!-- Event Pass 2: Jubin Nautiyal Live in Concert -->
@@ -390,7 +392,7 @@
 </div>
 <!-- Event Poster Visual -->
 <div class="relative rounded-xl overflow-hidden aspect-[16/9] mb-space-md bg-surface-container-high">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Euphoric large-scale concert arena at night with purple and cherry-red atmospheric lasers, massive singing audience, glowing smartphone lights, and a charismatic singer on stage with live band." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlCkyAWs-FzzGHORSgVICtLP_EYz3egKyn0t6JMCx5VolLfVX1fLvz5I_to1JiMqChbDKVFP1_EpJGGedEEJSDWSkLTdnOgvL4k2JuXaDjpm0iehbxZqw3uVPQwwPx8BMC7L0HmetwkOo2xV_nKF-X-fyS_7vgjHBsC62w6tMBNn2jxo1qtgaiyvtgSKQ9fpSVqJ-c2n3iXHTZscZ-igreZTGw0JBzgPjctI3CdhL_g8R7wf1w60X2">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Euphoric large-scale concert arena at night with purple and cherry-red atmospheric lasers, massive singing audience, glowing smartphone lights, and a charismatic singer on stage with live band." src="https://storage.googleapis.com/sai-usa-inc-f8581.firebasestorage.app/events/media/1784724881957_JUBIN-NAUTIYAL-1920x800-WEB-BANNER.jpg.jpeg">
 <div class="absolute bottom-3 left-3 bg-surface/90 backdrop-blur-md px-3 py-1.5 rounded-full text-on-surface font-label-ui text-xs flex items-center gap-1.5">
 <span class="material-symbols-outlined text-primary text-sm">stars</span>
 <span class="">VIP Lounge Access Available</span>
@@ -418,10 +420,10 @@
 <span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Pass Type</span>
 <span class="font-label-ui text-label-ui text-on-surface">Floor Tier • Reserved Lounge</span>
 </div>
-<button class="inline-flex items-center justify-center gap-2 px-space-lg py-3 rounded-full bg-primary text-on-primary font-label-ui text-label-ui hover:bg-primary-container transition-all" onclick="alert('Redirecting to Hard Rock Live Atlantic City official box office...')">
+<a class="inline-flex items-center justify-center gap-2 px-space-lg py-3 rounded-full bg-primary text-on-primary font-label-ui text-label-ui hover:bg-primary-container transition-all" href="https://www.ticketmaster.com/jubin-nautiyal-atlantic-city-new-jersey-11-28-2026/event/020064F122A271B9" rel="noopener noreferrer" target="_blank">
 <span class="">Get Passes</span>
 <span class="material-symbols-outlined text-base">confirmation_number</span>
-</button>
+</a>
 </div>
 </div>
 </div>
@@ -442,73 +444,12 @@
 <span class="material-symbols-outlined text-sm">open_in_new</span>
 </a>
 </div>
-<!-- Masonry Editorial Grid -->
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
-<!-- Tile 1 -->
-<div class="group relative rounded-2xl overflow-hidden bg-surface-container shadow-sm hover:shadow-xl transition-all duration-300">
-<div class="aspect-[4/5] w-full overflow-hidden">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Vinnie walking joyfully on cobblestone street in Soho NYC on Prince Street, wearing a bold cherry red leather biker jacket over a black slip dress with combat boots and oversized tortoise sunglasses, holding a takeaway coffee, bright golden hour sunlight in Manhattan." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDKvlBzRklZcwhjOBjxM3DxV_FzfSRu-ElfRio3PN2SSoSwvzpxHqUBBMMHb3t-8oMAtlBAzZmmWtAdYgph2fu3MIete0b4aHnGxpbjS9NpN-A_Ucc1vAGDxkdkKQ2rhCfnBEi2PDMVoAEaCNy9XJA3uQdfcXO8eFw1rDZIZK-bjx-hQRqJRwh9Ax4I39seE55AFEC4tYxao9tKn_p-aKpQzmuFmEhk1N-BZx0gzehUp8B37A4YE_2">
-</div>
-<!-- Overlay Caption on Hover / Mobile Static -->
-<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/20 to-transparent flex flex-col justify-end p-4 text-on-primary">
-<span class="font-label-caps text-[10px] text-secondary-fixed uppercase tracking-wider mb-1">OOTD Dispatch</span>
-<p class="font-body-sm text-body-sm font-medium leading-snug mb-2">
-              Cherry leather season is officially here 🍒 Prince St walks hit different in October.
-            </p>
-<div class="flex items-center justify-between text-xs text-secondary-fixed font-label-ui">
-<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">favorite</span> 4.2k</span>
-<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">chat_bubble</span> 184</span>
-</div>
-</div>
-</div>
-<!-- Tile 2 -->
-<div class="group relative rounded-2xl overflow-hidden bg-surface-container shadow-sm hover:shadow-xl transition-all duration-300">
-<div class="aspect-[4/5] w-full overflow-hidden">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Cozy cocktail table with fresh oysters, spicy dirty martini with olive, and fresh crusty bread in a vintage New York brasserie setting with warm ambiance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcLzFIs2uRpLmVFXiDgFsssw0l2G8F-T1XvkAKC4OaEl7C9rbFFnAAm0YVbYScQv0yaTO9XKkxwDS2DZyggKc1HcKfIte5lsVsF_ClprBX3jVNJ1ddK7K3DH3jUcvPfc71FdfNnOnBNU9VRL9Xyl-3uwRB6TrYE3YtjB6SxijKbO9J2HFuTh2zXY99qI_EWUr0CXVV44yNjDFf8bweu9o7PoJnWwGaESDcGmDORh-xAWgP1_z8TqRj">
-</div>
-<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/20 to-transparent flex flex-col justify-end p-4 text-on-primary">
-<span class="font-label-caps text-[10px] text-secondary-fixed uppercase tracking-wider mb-1">Cravings • Soho</span>
-<p class="font-body-sm text-body-sm font-medium leading-snug mb-2">
-              Table for two at Balthazar... save this spot for dirty martinis and pasta 🍸
-            </p>
-<div class="flex items-center justify-between text-xs text-secondary-fixed font-label-ui">
-<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">favorite</span> 3.8k</span>
-<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">chat_bubble</span> 240</span>
-</div>
-</div>
-</div>
-<!-- Tile 3 -->
-<div class="group relative rounded-2xl overflow-hidden bg-surface-container shadow-sm hover:shadow-xl transition-all duration-300">
-<div class="aspect-[4/5] w-full overflow-hidden">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Vinnie dressed in a sparkling gold and emerald sequin evening gown walking joyously outside NYC venue The Velvet Room at night, neon street signs, cheerful smile, elegant night out in Manhattan." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5JBV98t_q56YFCIckXkNnL8r-TpyGPnwEVhPBq8EVG__YVNxsbzNkbgpr33-111ltUoOzd9CaCXvsd-gHAI8eOg0BfGNc4azvz4n9RoU_Xp77fuYYVQ73kCLAntJcVrVUl6Zh4Jj-TkL7TbXFJJpwoT6fsSKM__jXiLnELRix0DRl4YLzvzhrtuCXnbnvJb0zlYpLzgPC3BaM3FropsgIM39DY-ScOExORHJF7AuwYRzR_yFNiKiu">
-</div>
-<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/20 to-transparent flex flex-col justify-end p-4 text-on-primary">
-<span class="font-label-caps text-[10px] text-secondary-fixed uppercase tracking-wider mb-1">Night Owls</span>
-<p class="font-body-sm text-body-sm font-medium leading-snug mb-2">
-              Golden hour to velvet room doors ✨ NYC nights will forever have my whole heart.
-            </p>
-<div class="flex items-center justify-between text-xs text-secondary-fixed font-label-ui">
-<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">favorite</span> 5.6k</span>
-<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">chat_bubble</span> 312</span>
-</div>
-</div>
-</div>
-<!-- Tile 4 -->
-<div class="group relative rounded-2xl overflow-hidden bg-surface-container shadow-sm hover:shadow-xl transition-all duration-300">
-<div class="aspect-[4/5] w-full overflow-hidden">
-<img alt="Concert and musical performance atmosphere with dramatic warm stage lighting, euphoric audience, acoustic instruments and Sufi qawwali musicians, intimate festival vibe" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfxkBgK1_Aw_wHD7HWAjEHP9pXC_jYFdBU0P22wI_GaT_fS_PlFy92Sb8rqXbPAAQLGkcCVL4mU3_0E4D5oC6s71tR7Y4LkrcFYPwinZ-Vrt6qn6aVIDvMV_jOZ0pZL3p-lgA2qXxn_tVLzyYy0zwjrThjDzv23rcMQUpL3vNfq24inQI5pXsSbWmAxlbNOy-uPqkfZQCmVbX9Xobz0hYS_nf2cElWYuQ7LtIgSaIyhj8RwPLuETIL">
-</div>
-<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/20 to-transparent flex flex-col justify-end p-4 text-on-primary">
-<span class="font-label-caps text-[10px] text-secondary-fixed uppercase tracking-wider mb-1">Soul • Carteret</span>
-<p class="font-body-sm text-body-sm font-medium leading-snug mb-2">
-              Pure goosebumps during Chaap Tilak 🕯️ There is nothing quite like live qawwali.
-            </p>
-<div class="flex items-center justify-between text-xs text-secondary-fixed font-label-ui">
-<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">favorite</span> 6.1k</span>
-<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">chat_bubble</span> 428</span>
-</div>
-</div>
-</div>
+<!-- Live Instagram grid, filled from Behold -->
+<div id="gram-diary-grid" aria-busy="true" aria-live="polite">
+<div class="gram-diary-card rounded-2xl overflow-hidden bg-surface-container aspect-[4/5] animate-pulse" aria-hidden="true"></div>
+<div class="gram-diary-card rounded-2xl overflow-hidden bg-surface-container aspect-[4/5] animate-pulse" aria-hidden="true"></div>
+<div class="gram-diary-card rounded-2xl overflow-hidden bg-surface-container aspect-[4/5] animate-pulse" aria-hidden="true"></div>
+<div class="gram-diary-card rounded-2xl overflow-hidden bg-surface-container aspect-[4/5] animate-pulse" aria-hidden="true"></div>
 </div>
 </div>
 </section>
@@ -620,59 +561,64 @@
           Drop your proposal, campaign dates, or press invitation below. Our team responds within 48 business hours.
         </p>
 </div>
-<form class="space-y-space-md" id="collab-form" onsubmit="event.preventDefault(); document.getElementById('form-success').classList.remove('hidden'); this.reset();">
+<form class="space-y-space-md" id="collab-form" novalidate>
+<div class="honeypot" aria-hidden="true">
+<label for="collab-website">Website</label>
+<input id="collab-website" name="_honey" tabindex="-1" autocomplete="off" type="text">
+</div>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
 <!-- Full Name / Brand -->
 <div class="flex flex-col gap-1.5">
-<label class="font-label-ui text-label-ui text-on-surface">Your Name / Brand Name *</label>
-<input class="h-[52px] px-5 rounded-full bg-surface-container-low text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container transition-all" placeholder="e.g. Soho House / Maya Patel" required="" type="text">
+<label class="font-label-ui text-label-ui text-on-surface" for="collab-name">Your Name / Brand Name *</label>
+<input class="h-[52px] px-5 rounded-full bg-surface-container-low text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container transition-all" id="collab-name" name="name" placeholder="e.g. Soho House / Maya Patel" required type="text" autocomplete="name">
 </div>
 <!-- Business Email -->
 <div class="flex flex-col gap-1.5">
-<label class="font-label-ui text-label-ui text-on-surface">Business Email *</label>
-<input class="h-[52px] px-5 rounded-full bg-surface-container-low text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container transition-all" placeholder="name@brand.com" required="" type="email">
+<label class="font-label-ui text-label-ui text-on-surface" for="collab-email">Business Email *</label>
+<input class="h-[52px] px-5 rounded-full bg-surface-container-low text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container transition-all" id="collab-email" name="email" placeholder="name@brand.com" required type="email" autocomplete="email">
 </div>
 </div>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
 <!-- Inquiry Type -->
 <div class="flex flex-col gap-1.5">
-<label class="font-label-ui text-label-ui text-on-surface">Inquiry Type *</label>
-<select class="h-[52px] px-5 rounded-full bg-surface-container-low text-on-surface focus:outline-none focus:bg-surface-container transition-all" required="">
+<label class="font-label-ui text-label-ui text-on-surface" for="collab-inquiry">Inquiry Type *</label>
+<select class="h-[52px] px-5 rounded-full bg-surface-container-low text-on-surface focus:outline-none focus:bg-surface-container transition-all" id="collab-inquiry" name="inquiry_type" required>
 <option value="">Select Partnership Type</option>
-<option value="sponsored-reel">Sponsored Reel / TikTok Campaign</option>
-<option value="event-hosting">Event Hosting / Appearance / Red Carpet</option>
-<option value="hospitality">Hospitality / Dining / Hotel Review</option>
-<option value="pr-gifting">PR Gifting &amp; Product Curation</option>
-<option value="general">General / Press / Speaking</option>
+<option value="Sponsored Reel / TikTok Campaign">Sponsored Reel / TikTok Campaign</option>
+<option value="Event Hosting / Appearance / Red Carpet">Event Hosting / Appearance / Red Carpet</option>
+<option value="Hospitality / Dining / Hotel Review">Hospitality / Dining / Hotel Review</option>
+<option value="PR Gifting &amp; Product Curation">PR Gifting &amp; Product Curation</option>
+<option value="General / Press / Speaking">General / Press / Speaking</option>
 </select>
 </div>
 <!-- Timeline & Budget -->
 <div class="flex flex-col gap-1.5">
-<label class="font-label-ui text-label-ui text-on-surface">Estimated Budget Range</label>
-<select class="h-[52px] px-5 rounded-full bg-surface-container-low text-on-surface focus:outline-none focus:bg-surface-container transition-all">
-<option value="tier1">$1,500 - $3,500</option>
-<option selected="" value="tier2">$3,500 - $7,500</option>
-<option value="tier3">$7,500 - $15,000+</option>
-<option value="pr-only">PR Gifting / Unboxings</option>
+<label class="font-label-ui text-label-ui text-on-surface" for="collab-budget">Estimated Budget Range</label>
+<select class="h-[52px] px-5 rounded-full bg-surface-container-low text-on-surface focus:outline-none focus:bg-surface-container transition-all" id="collab-budget" name="budget">
+<option value="$1,500 - $3,500">$1,500 - $3,500</option>
+<option selected value="$3,500 - $7,500">$3,500 - $7,500</option>
+<option value="$7,500 - $15,000+">$7,500 - $15,000+</option>
+<option value="PR Gifting / Unboxings">PR Gifting / Unboxings</option>
 </select>
 </div>
 </div>
 <!-- Project Details -->
 <div class="flex flex-col gap-1.5">
-<label class="font-label-ui text-label-ui text-on-surface">Project Details &amp; Vision *</label>
-<textarea class="p-5 rounded-2xl bg-surface-container-low text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container transition-all resize-none" placeholder="Tell Vinnie about your campaign vision, key deliverables, and target launch dates..." required="" rows="4"></textarea>
+<label class="font-label-ui text-label-ui text-on-surface" for="collab-details">Project Details &amp; Vision *</label>
+<textarea class="p-5 rounded-2xl bg-surface-container-low text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container transition-all resize-none" id="collab-details" name="message" placeholder="Tell Vinnie about your campaign vision, key deliverables, and target launch dates..." required rows="4"></textarea>
 </div>
 <!-- Submit Button -->
 <div class="pt-space-xs flex flex-col sm:flex-row items-center justify-between gap-space-sm">
-<button class="w-full sm:w-auto px-space-xl py-3.5 rounded-full bg-primary-container text-on-primary font-label-ui text-label-ui shadow-lg hover:bg-primary transition-all duration-200" type="submit">
+<button class="w-full sm:w-auto px-space-xl py-3.5 rounded-full bg-primary-container text-on-primary font-label-ui text-label-ui shadow-lg hover:bg-primary transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed" id="collab-submit" type="submit">
             Send Collaboration Request 💌
           </button>
 <span class="font-body-sm text-body-sm text-on-surface-variant text-center sm:text-right">
             Urgent management inquiries: <strong class="text-on-surface">collab@bewithvinnie.com</strong>
 </span>
 </div>
+<div class="hidden p-4 rounded-xl bg-error-container text-on-error-container text-center font-label-ui text-label-ui" id="form-error" role="alert" tabindex="-1"></div>
 <!-- Success Message -->
-<div class="hidden p-4 rounded-xl bg-secondary-container text-on-secondary-container text-center font-label-ui text-label-ui animate-fade-in" id="form-success">
+<div class="hidden p-4 rounded-xl bg-secondary-container text-on-secondary-container text-center font-label-ui text-label-ui" id="form-success" role="status" tabindex="-1">
           ✨ Thank you! Your collaboration proposal has been sent to Vinnie's team. We'll be in touch within 48 hours!
         </div>
 </form>
@@ -683,6 +629,206 @@
  const toggle=document.getElementById('mobile-toggle'),menu=document.getElementById('mobile-menu');
  if(toggle&&menu){toggle.addEventListener('click',()=>{const open=menu.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Close navigation':'Open navigation');toggle.querySelector('span').textContent=open?'close':'menu'});menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.querySelector('span').textContent='menu'}))}
  document.querySelectorAll('[data-path]').forEach(a=>{if(a.dataset.path)a.href='#'+a.dataset.path});
+})();
+(function(){
+ const FEED_URL='https://feeds.behold.so/FMWRhj5kBSNGisKfnxpt';
+ const MAX_POSTS=8;
+ const grid=document.getElementById('gram-diary-grid');
+ if(!grid) return;
+
+ const escapeHtml=function(value){
+  return String(value==null?'':value)
+   .replace(/&/g,'&amp;')
+   .replace(/</g,'&lt;')
+   .replace(/>/g,'&gt;')
+   .replace(/"/g,'&quot;')
+   .replace(/'/g,'&#39;');
+ };
+
+ const safeHttps=function(value){
+  try{
+   const url=new URL(value);
+   if(url.protocol==='https:') return url.href;
+  }catch(e){}
+  return '';
+ };
+
+ const formatCount=function(value){
+  const count=Number(value)||0;
+  if(count>=1000) return (count/1000).toFixed(1).replace(/\.0$/,'')+'k';
+  return String(count);
+ };
+
+ const postImage=function(post){
+  const sizes=post&&post.sizes?post.sizes:{};
+  return safeHttps((sizes.medium&&sizes.medium.mediaUrl)
+   ||(sizes.large&&sizes.large.mediaUrl)
+   ||(sizes.small&&sizes.small.mediaUrl)
+   ||post.thumbnailUrl
+   ||post.mediaUrl);
+ };
+
+ const postLabel=function(post){
+  if(post.hashtags&&post.hashtags[0]) return String(post.hashtags[0]).replace(/[^\w\s-]/g,'').trim()||'Diary';
+  if(post.permalink&&post.permalink.indexOf('/reel/')!==-1) return 'Reel';
+  if(post.mediaType==='CAROUSEL_ALBUM') return 'Album';
+  if(post.mediaType==='VIDEO') return 'Reel';
+  return 'Diary';
+ };
+
+ const postCaption=function(post){
+  const raw=String(post.prunedCaption||post.caption||'').trim();
+  const first=(raw.split('\n').find(function(line){return line.trim();})||'').trim();
+  if(first.length>92) return first.slice(0,89).trim()+'…';
+  return first||'View this post on Instagram';
+ };
+
+ const mediaBadge=function(post){
+  if(post.mediaType==='VIDEO'|| (post.permalink&&post.permalink.indexOf('/reel/')!==-1)){
+   return '<span class="absolute top-3 right-3 w-9 h-9 rounded-full bg-surface/90 text-primary flex items-center justify-center shadow-md" aria-hidden="true"><span class="material-symbols-outlined text-lg">play_arrow</span></span>';
+  }
+  if(post.mediaType==='CAROUSEL_ALBUM'){
+   return '<span class="absolute top-3 right-3 w-9 h-9 rounded-full bg-surface/90 text-primary flex items-center justify-center shadow-md" aria-hidden="true"><span class="material-symbols-outlined text-lg">photo_library</span></span>';
+  }
+  return '';
+ };
+
+ const renderError=function(){
+  grid.setAttribute('aria-busy','false');
+  grid.className='';
+  grid.innerHTML='<div class="rounded-2xl bg-surface-container p-space-lg text-center" role="alert"><p class="font-body-md text-body-md text-on-surface-variant mb-space-sm">The latest Instagram posts could not be loaded right now.</p><a class="inline-flex items-center gap-2 text-primary font-label-ui text-label-ui hover:underline" href="https://instagram.com/bewithvinnie" rel="noopener noreferrer" target="_blank">Open @bewithvinnie on Instagram<span class="material-symbols-outlined text-sm">open_in_new</span></a></div>';
+ };
+
+ const renderPosts=function(posts){
+  const cards=posts.map(function(post){
+   const href=safeHttps(post.permalink)||'https://instagram.com/bewithvinnie';
+   const src=postImage(post);
+   if(!src) return '';
+   const caption=postCaption(post);
+   const label=postLabel(post);
+   return '<a class="gram-diary-card group relative rounded-2xl overflow-hidden bg-surface-container shadow-sm hover:shadow-xl transition-all duration-300 focus-visible:outline focus-visible:outline-3 focus-visible:outline-offset-2" href="'+escapeHtml(href)+'" target="_blank" rel="noopener noreferrer">'
+    +'<div class="aspect-[4/5] w-full overflow-hidden">'
+    +'<img alt="'+escapeHtml(caption)+'" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" src="'+escapeHtml(src)+'">'
+    +mediaBadge(post)
+    +'</div>'
+    +'<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/20 to-transparent flex flex-col justify-end p-4 text-on-primary pointer-events-none">'
+    +'<span class="font-label-caps text-[10px] text-secondary-fixed uppercase tracking-wider mb-1">'+escapeHtml(label)+'</span>'
+    +'<p class="font-body-sm text-body-sm font-medium leading-snug mb-2">'+escapeHtml(caption)+'</p>'
+    +'<div class="flex items-center justify-between text-xs text-secondary-fixed font-label-ui">'
+    +'<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm" aria-hidden="true">favorite</span>'+escapeHtml(formatCount(post.likeCount))+'<span class="sr-only"> likes</span></span>'
+    +'<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm" aria-hidden="true">chat_bubble</span>'+escapeHtml(formatCount(post.commentsCount))+'<span class="sr-only"> comments</span></span>'
+    +'</div></div></a>';
+  }).join('');
+
+  grid.setAttribute('aria-busy','false');
+  grid.innerHTML=cards||'';
+  if(!cards) renderError();
+ };
+
+ fetch(FEED_URL,{headers:{Accept:'application/json'}})
+  .then(function(response){
+   if(!response.ok) throw new Error('Feed request failed');
+   return response.json();
+  })
+  .then(function(data){
+   const posts=(data&&Array.isArray(data.posts)?data.posts:[])
+    .filter(function(post){return post&&post.visibility!=='hidden';})
+    .slice(0,MAX_POSTS);
+   if(!posts.length) throw new Error('No visible posts');
+   renderPosts(posts);
+  })
+  .catch(function(){renderError();});
+})();
+(function(){
+ const form=document.getElementById('collab-form');
+ if(!form) return;
+ const submit=document.getElementById('collab-submit');
+ const success=document.getElementById('form-success');
+ const errorBox=document.getElementById('form-error');
+ const idleLabel=submit?submit.textContent:'Send Collaboration Request 💌';
+
+ const showError=function(message){
+  if(success) success.classList.add('hidden');
+  if(!errorBox) return;
+  errorBox.textContent=message;
+  errorBox.classList.remove('hidden');
+  errorBox.focus();
+ };
+
+ const showSuccess=function(){
+  if(errorBox){
+   errorBox.classList.add('hidden');
+   errorBox.textContent='';
+  }
+  if(!success) return;
+  success.classList.remove('hidden');
+  success.focus();
+ };
+
+ form.addEventListener('submit',function(event){
+  event.preventDefault();
+  const honey=form.querySelector('[name="_honey"]');
+  if(honey&&honey.value) return;
+
+  const name=document.getElementById('collab-name');
+  const email=document.getElementById('collab-email');
+  const inquiry=document.getElementById('collab-inquiry');
+  const details=document.getElementById('collab-details');
+  const budget=document.getElementById('collab-budget');
+  const missing=[];
+  if(!name.value.trim()) missing.push({el:name,label:'your name or brand'});
+  if(!email.value.trim()) missing.push({el:email,label:'a business email'});
+  else if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value.trim())) missing.push({el:email,label:'a valid business email'});
+  if(!inquiry.value) missing.push({el:inquiry,label:'an inquiry type'});
+  if(!details.value.trim()) missing.push({el:details,label:'project details'});
+  if(missing.length){
+   showError('Please add '+missing.map(function(item){return item.label;}).join(', ')+'.');
+   missing[0].el.focus();
+   return;
+  }
+
+  if(submit){
+   submit.disabled=true;
+   submit.textContent='Sending…';
+  }
+  if(errorBox) errorBox.classList.add('hidden');
+
+  fetch('https://formsubmit.co/ajax/vinitabadani92@gmail.com',{
+   method:'POST',
+   headers:{'Content-Type':'application/json','Accept':'application/json'},
+   body:JSON.stringify({
+    name:name.value.trim(),
+    email:email.value.trim(),
+    inquiry_type:inquiry.value,
+    budget:budget.value,
+    message:details.value.trim(),
+    _subject:'New Be With Vinnie collaboration request from '+name.value.trim(),
+    _template:'table',
+    _captcha:'false'
+   })
+  })
+  .then(function(response){
+   return response.json().then(function(data){
+    if(!response.ok||data.success===false||data.success==='false'){
+     throw new Error(data.message||'Send failed');
+    }
+    return data;
+   },function(){throw new Error('Send failed');});
+  })
+  .then(function(){
+   form.reset();
+   showSuccess();
+  })
+  .catch(function(){
+   showError('Your request could not be sent right now. Email vinitabadani92@gmail.com directly and we will reply within 48 hours.');
+  })
+  .finally(function(){
+   if(submit){
+    submit.disabled=false;
+    submit.textContent=idleLabel;
+   }
+  });
+ });
 })();
 </script><footer class="w-full bg-surface-container-low mt-space-xl"><div class="w-full px-margin md:px-margin-desktop pt-space-xl pb-space-lg"><div class="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-space-xl pb-space-xl"><div class="max-w-xl"><span class="font-label-caps text-label-caps uppercase tracking-widest text-primary block mb-space-xs">Editorial Signoff</span><h3 class="font-headline-lg text-headline-lg text-on-surface tracking-tight leading-tight mb-space-sm">BE WITH VINNIE</h3><p class="font-title-editorial text-title-editorial text-secondary italic mb-space-md">Beauty, brains &amp; bubbly energy.</p><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">NYC / NJ LIFESTYLE &amp; CULTURE — An intimate digital print chronicle spanning elevated curations, spontaneous city escapades, style diary logs, and high-vibe creative gatherings.</p></div><div class="flex flex-col items-start lg:items-end gap-space-md"><span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant">Connect With The Community</span><div class="flex items-center gap-space-sm"><a aria-label="Instagram" href="https://instagram.com/bewithvinnie" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary transition-all duration-200"><svg aria-hidden="true" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5"></rect><circle cx="12" cy="12" r="4.25"></circle><circle cx="17.6" cy="6.4" r="1" fill="currentColor" stroke="none"></circle></svg></a></div><div class="flex flex-wrap gap-space-md text-on-surface-variant font-label-ui text-label-ui mt-space-xs"><a class="hover:text-primary transition-colors" data-path="meet-vinnie" href="#meet-vinnie">About</a><a class="hover:text-primary transition-colors" data-path="what-im-into" href="#what-im-into">Curations</a><a class="hover:text-primary transition-colors" data-path="instagram-diary" href="#instagram-diary">The Diary</a><a class="hover:text-primary transition-colors" data-path="collaborate" href="#collaborate">Press &amp; Collabs</a><a class="hover:text-primary transition-colors" data-path="collaborate-form" href="#collaborate-form">Inquiries</a></div></div></div><div class="pt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm font-body-sm text-body-sm text-on-surface-variant"><p class="">© 2026 Be With Vinnie. All rights reserved.</p><p class="font-label-caps text-label-caps tracking-wider text-secondary uppercase">Designed for East Coast Creators</p></div></div></footer>
 
